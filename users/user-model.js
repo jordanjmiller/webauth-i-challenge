@@ -19,14 +19,3 @@ function getUserBy(value) {
         .where(value)
         .first();
 }
-
-// function addResource(resource) {
-//     return db('resources')
-//         .insert(resource)
-//         // .then(newResource => getResourceByID(newResource[0].id));
-// }
-// function addTask(task) {
-//     return db('tasks')
-//         .insert(task)
-//         // .then(newTask => getTaskByID(newTask[0].id));
-// }
